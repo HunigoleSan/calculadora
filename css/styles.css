@@ -11,11 +11,12 @@ body {
     background: #fd385f;
     font-family: 'Kano',Arial, Helvetica, sans-serif;
     background-image: url("/img/kameHouse.jpg");
-    position: relative;
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+    box-shadow: 0px 0px 4rem #0009 inset;
     
   }
   h1{
@@ -24,17 +25,13 @@ body {
     margin-top: 1rem;
     text-shadow: 3px 3px 4px white;
   }
-  textarea{
-    resize: none;
-    outline: none;
-    
-    padding: 5px;
-  }
-  .calculadora,.capa {
+
+  .calculadora {
 
     width: 300px;
     padding: 1rem;
     display: flex;
+    word-wrap: break-word;
     flex-wrap: wrap;
     background: rgb(255, 255, 255,50%);
     gap: 0.5em;
@@ -65,17 +62,18 @@ body {
   }
   .resultado {
     border-radius: 5px;
-    display: block;
-    font-size: 1.5rem;
     width: 100%;
-    border: 1px solid rgb(0, 0, 0,30%);
     height: 3em;
+    font-size: 1.5rem;
+    border: 1px solid rgb(0, 0, 0,30%);
     margin-top: 1rem;
     margin-bottom: .5rem;
     display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 15px;
+    
     background-color: rgb(255, 255, 255,80%);
+
     }
-  
+  p{
+    width: 100%;
+    line-height: 1em;
+    }
